@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<edml>
+  <included>
+
+    <measures>
+      <device name="PidPMT"
+            type="ForwardPidDetector" />
+    </measures>
+
+  </included>
+</edml>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<edml>
+    <included>
+        <!-- NA 2009/02 -->
+        <measures>
+            <device name="ForwardPid" type="ForwardPidDetector" />
+        </measures>
+
+        <detector>
+            <!-- Aerogel detector -->
+            <volume name="Forward PID Region">
+                <cone name="ForwardPidAerogel" id="0" rmin="52.572" rmax="78.29" tantheta="-2.391" zvertex="206.5" thick="7.774" mat="forwardPid-Aerogel" meas="ForwardPid" />
+                <cone name="ForwardPidPMT" id="0" rmin="52.572" rmax="72.672" tantheta="-2.391" zvertex="234.0" thick="12.957" mat="forwardPid-PMTelectr" />
+            </volume>
+        </detector>
+    </included>
+</edml>
+

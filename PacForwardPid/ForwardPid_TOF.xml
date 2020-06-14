@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<edml>
+    <included>
+        <!-- NA 2009/02 -->
+        <!-- <include file="PacForwardPid/ForwardPidPMT_resolution.xml"  /> -->
+        
+        <!-- NA 2009/02 -->
+        <measures>
+            <device name="ForwardPid" type="ForwardPidDetector" />
+        </measures>
+        
+        <detector>
+            <!-- TOF detector -->
+            <volume name="Forward PID Region">
+
+            </volume>
+        </detector>
+    </included>
+</edml>
+
